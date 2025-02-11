@@ -7,10 +7,8 @@ CREATE TABLE employees (
   mail VARCHAR(250) NOT NULL,
   password VARCHAR(250) NOT NULL
 );
- 
-INSERT INTO employees (first_name, last_name, mail, password) VALUES
-  ('Lulu', 'SUPPORT', 'laurentgina@mail.com', 'lulu'),
-  ('Vex', 'MID', 'sophiefoncek@mail.com', 'vex'),
-  ('Poppy', 'TOP', 'agathefeeling@mail.com', 'poppy'),
-  ('Ziggs', 'KOBE', 'agathefeeling@mail.com', 'ziggs'),
-  ('Tristana', 'ADC', 'agathefeeling@mail.com', 'trist');
+
+ INSERT INTO employees (first_name, last_name, mail, password) VALUES
+   ('Lulu', 'SUPPORT', 'laurentgina@mail.com', 'lulu'),
+   ('Vex', 'MID', 'sophiefoncek@mail.com', 'vex'),
+   ('Poppy', 'TOP', 'agathefeeling@mail.com', 'poppy');

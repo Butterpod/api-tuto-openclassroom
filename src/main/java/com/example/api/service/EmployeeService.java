@@ -11,7 +11,7 @@ import lombok.Data;
 
 @Data
 @Service
-public class EmployeeService{
+public class EmployeeService {
 
     @Autowired
     private EmployeeRepository employeeRepository;
